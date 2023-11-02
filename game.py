@@ -92,6 +92,7 @@ class Game:
             for cell in r:
                 if cell.type != "X" and not cell.revealed:
                     return False
+                
         return True
 
 
